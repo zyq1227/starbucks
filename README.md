@@ -49,7 +49,75 @@ npm start ————————————npm run dev
 
 
 <h2>项目结构</h2>
-
+│  App.vue
+│  main.js
+│  tree.txt
+│  
+├─api   配置所有接口的目录——在index.js中
+│      index.js
+│      
+├─components   存放所有公共的组件目录
+│  │  contlist.vue
+│  │  head.vue
+│  │  HelloWorld.vue
+│  │  main.vue
+│  │  navTitle.vue
+│  │  title.vue
+│  │  
+│  └─popup
+│          index.vue
+│          
+├─directives
+├─plugins  存放封装的全局组件——在index.js中
+├─router  存放配置路由表文件——在index.js中
+│      index.js
+│      
+├─static  存放静态资源目录
+│  │  .gitkeep
+│  │  
+│  └─scss
+│          common.scss
+│          _minix.scss
+│          
+├─store  状态管理库目录
+│  │  index.js
+│  │  
+│  └─modules
+│          user.js
+│          
+├─utils  封装公共方法目录
+│  │  flexble.js
+│  │  isFile.js
+│  │  request.js
+│  │  requires
+│  │  
+│  └─fonts  iconfont 图标
+│          demo.css
+│          demo_index.html
+│          iconfont.css
+│          iconfont.eot
+│          iconfont.js
+│          iconfont.svg
+│          iconfont.ttf
+│          iconfont.woff
+│          iconfont.woff2
+│          
+└─views  存放视图目录
+    ├─commit
+    │      index.vue
+    │      
+    ├─detali
+    │      index.vue
+    │      
+    ├─home
+    │  │  index.vue
+    │  │  
+    │  └─countent
+    ├─login
+    │      index.vue
+    │      
+    └─search
+            index.vue
 >client——主目录
 
 >>>bulid—— 存放webpakc的配置文件,webpack, devServer,production
